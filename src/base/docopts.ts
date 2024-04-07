@@ -10,7 +10,7 @@ export class DocOpts {
 
   public flagList: Flags
 
-  public constructor(private cmd: Interfaces.Command) {
+  public constructor(private cmd: Interfaces.Command.Class) {
     // Create a new map with references to the flags that we can manipulate.
     this.flagMap = {}
     this.flagList = Object.entries(cmd.flags || {})

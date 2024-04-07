@@ -7,7 +7,7 @@ import chalk from 'chalk'
 
 export type Flags<T extends typeof Command> = Interfaces.InferredFlags<typeof BaseCommand['globalFlags'] & T['flags']>
 
-export abstract class BaseCommand<T extends typeof Command> extends Command {
+export abstract class BaseCommand<T extends typeof Command> extends Interfaces.Command {
   static globalFlags: Record<string, any> = {
     help: Flags.help({
       char: 'h',

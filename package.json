@@ -21,7 +21,7 @@
     "csv-parse": "^5.0.4",
     "fs-extra": "^11.1.0",
     "fs-extra-debug": "^1.0.4",
-    "get-stream": "^6.0.0",
+    "get-stream": "^9.0.1",
     "jsonpath": "^1.1.0",
     "libphonenumber-js": "^1.10.15",
     "ololog": "^1.1.168",

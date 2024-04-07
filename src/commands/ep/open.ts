@@ -1,7 +1,7 @@
 import { AuthenticatedBaseCommand } from '../../base/authenticated-base-command'
 import { CliUx, Flags } from '@oclif/core'
 import chalk from 'chalk'
-import getStream from 'get-stream'
+import * as getStream from 'get-stream'
 import * as utils from '../../utils'
 
 export default class EpOpen extends AuthenticatedBaseCommand<typeof EpOpen> {
